@@ -14,6 +14,10 @@
 		0B991AFB22304818009DAACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B991AF922304818009DAACC /* LaunchScreen.storyboard */; };
 		0B991B0622304818009DAACC /* ConsumeCSVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B991B0522304818009DAACC /* ConsumeCSVTests.swift */; };
 		0B991B1122304818009DAACC /* ConsumeCSVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B991B1022304818009DAACC /* ConsumeCSVUITests.swift */; };
+		0B991B2022304948009DAACC /* WRCcar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B991B1F22304948009DAACC /* WRCcar.swift */; };
+		0B991B2322304C28009DAACC /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B991B2222304C28009DAACC /* Tools.swift */; };
+		0B991B2622304E43009DAACC /* WRCars.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0B991B2522304E43009DAACC /* WRCars.csv */; };
+		0B991B2922304F58009DAACC /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B991B2822304F58009DAACC /* CSV.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		0B991B0C22304818009DAACC /* ConsumeCSVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsumeCSVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B991B1022304818009DAACC /* ConsumeCSVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumeCSVUITests.swift; sourceTree = "<group>"; };
 		0B991B1222304818009DAACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B991B1F22304948009DAACC /* WRCcar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WRCcar.swift; sourceTree = "<group>"; };
+		0B991B2222304C28009DAACC /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		0B991B2522304E43009DAACC /* WRCars.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = WRCars.csv; path = ../../../Desktop/WRCars.csv; sourceTree = "<group>"; };
+		0B991B2822304F58009DAACC /* CSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,9 @@
 		0B991AE422304810009DAACC = {
 			isa = PBXGroup;
 			children = (
+				0B991B2422304C8C009DAACC /* Libreries */,
+				0B991B2122304BF7009DAACC /* Tools */,
+				0B991B1E223048B4009DAACC /* Model */,
 				0B991AEF22304811009DAACC /* ConsumeCSV */,
 				0B991B0422304818009DAACC /* ConsumeCSVTests */,
 				0B991B0F22304818009DAACC /* ConsumeCSVUITests */,
@@ -123,6 +134,31 @@
 				0B991B1222304818009DAACC /* Info.plist */,
 			);
 			path = ConsumeCSVUITests;
+			sourceTree = "<group>";
+		};
+		0B991B1E223048B4009DAACC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B991B1F22304948009DAACC /* WRCcar.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B991B2122304BF7009DAACC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0B991B2222304C28009DAACC /* Tools.swift */,
+				0B991B2822304F58009DAACC /* CSV.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0B991B2422304C8C009DAACC /* Libreries */ = {
+			isa = PBXGroup;
+			children = (
+				0B991B2522304E43009DAACC /* WRCars.csv */,
+			);
+			path = Libreries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +267,7 @@
 			files = (
 				0B991AFB22304818009DAACC /* LaunchScreen.storyboard in Resources */,
 				0B991AF822304818009DAACC /* Assets.xcassets in Resources */,
+				0B991B2622304E43009DAACC /* WRCars.csv in Resources */,
 				0B991AF622304811009DAACC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B991B2922304F58009DAACC /* CSV.swift in Sources */,
 				0B991AF322304811009DAACC /* ViewController.swift in Sources */,
 				0B991AF122304811009DAACC /* AppDelegate.swift in Sources */,
+				0B991B2022304948009DAACC /* WRCcar.swift in Sources */,
+				0B991B2322304C28009DAACC /* Tools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
